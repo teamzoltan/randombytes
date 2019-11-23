@@ -1,0 +1,2 @@
+Simple tcp proxy example
+	nc -v -l -p 3389 -c "nc otherhost 3389"
