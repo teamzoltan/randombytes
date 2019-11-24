@@ -1,0 +1,7 @@
+How to make git use a proxy
+ git config --global http.proxy http://proxyUsername:proxyPassword@proxy.server.com:port
+
+git config --global http.https://domain.com.proxy http://proxyUsername:proxyPassword@proxy.server.com:port
+git config --global http.https://domain.com.sslVerify false
+
+git config --global http.sslVerify false
