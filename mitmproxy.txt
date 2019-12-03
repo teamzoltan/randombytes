@@ -2,4 +2,4 @@ SSLKEYLOGFILE=$PWD/.mitmproxy/sslkeylogfile.txt mitmdump -w outfile
 
 then modify Wireshark to point to the sslkeylogfile under protocol SSL. 
 
-Voila! decrypted SSL traffic!
+Voila! decrypted SSL traffic if you sniff on localhost (as that's where mitmproxy binds)!
